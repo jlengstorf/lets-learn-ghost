@@ -1,0 +1,17 @@
+{
+  "name": "lets-learn-ghost-11ty",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@tryghost/content-api": "^1.3.10"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  }
+}
